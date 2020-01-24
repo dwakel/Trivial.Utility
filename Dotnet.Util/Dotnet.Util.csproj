@@ -11,6 +11,15 @@
     <Company>Selorm Avoke</Company>
     <Version>0.1.0</Version>
     <PackageTags>Dotnet.Util, dotnet util, Util, .Net Util, dotnet utilities, Utilities</PackageTags>
+    <PackageLicenseExpression />
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
