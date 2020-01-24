@@ -1,7 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Selorm Avoke</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/dwakel/Dotnet.Util</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <Description>A small library for utility methods that make your development process easier</Description>
+    <Copyright>Selorm Avoke</Copyright>
+    <Company>Selorm Avoke</Company>
+    <Version>0.1.0</Version>
+    <PackageTags>Dotnet.Util, dotnet util, Util, .Net Util, dotnet utilities, Utilities</PackageTags>
   </PropertyGroup>
 
 </Project>
