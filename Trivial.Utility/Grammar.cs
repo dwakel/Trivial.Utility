@@ -1,4 +1,4 @@
-﻿namespace Dotnet.Util
+﻿namespace Trivial.Utility
 {
     public static class Grammar
     {

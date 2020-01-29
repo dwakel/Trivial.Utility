@@ -7,12 +7,13 @@
     <RepositoryUrl>https://github.com/dwakel/Dotnet.Util</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
     <Description>A small library for utility methods that make your development process easier</Description>
-    <Copyright>Selorm Avoke</Copyright>
+    <Copyright>©Selorm Avoke 2020</Copyright>
     <Company>Selorm Avoke</Company>
     <Version>0.1.0</Version>
-    <PackageTags>Dotnet.Util, dotnet util, Util, .Net Util, dotnet utilities, Utilities</PackageTags>
+    <PackageTags>Dotnet.Util, dotnet util, Util, .Net Util, dotnet utilities, Utilities, Trivial, Trivial.Util, Trivial.Utility, Trivial</PackageTags>
     <PackageLicenseExpression />
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageId>Trivial.Utility</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

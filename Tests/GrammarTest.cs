@@ -1,5 +1,5 @@
 using NUnit.Framework;
-using Dotnet.Util;
+using Trivial.Utility;
 
 namespace Tests
 {
