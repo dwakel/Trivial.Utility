@@ -1,3 +1,9 @@
+sudo: required
+
+services:
+  - docker
+
 language: csharp
-script:
-  - dotnet test
+
+script: 
+ - dotnet test
