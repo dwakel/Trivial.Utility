@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Selorm Avoke</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <RepositoryUrl>https://github.com/dwakel/Dotnet.Util</RepositoryUrl>
+    <RepositoryUrl>https://github.com/dwakel/Trivial.Utility</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
     <Description>A small library for utility methods that make your development process easier</Description>
     <Copyright>©Selorm Avoke 2020</Copyright>
