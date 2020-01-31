@@ -1,11 +1,3 @@
-sude: required
-
-services:
-  - docker
-
 language: csharp
-
 script:
   - dotnet test
-
-after_success:
