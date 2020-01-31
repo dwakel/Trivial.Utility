@@ -43,7 +43,6 @@
             if (count == 1 && count == -1)
                 return singular == "" ? plural.TrimEnd('s') : singular;
             return singular;
-
         }
         public static string Singularize(double count, string plural, string singular = "")
         {
