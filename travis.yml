@@ -1,9 +1,4 @@
-sudo: required
-
-services:
-  - docker
-
 language: csharp
-
+solution: Trivial.Utility.sln
 script: 
  - dotnet test
