@@ -1,6 +1,6 @@
 ﻿namespace Trivial.Utility
 {
-    public static class Grammar
+   public static class Grammar
     {
         #region Pluralize
         public static string Pluralize(int count, string singular, string plural = "")
@@ -8,14 +8,12 @@
             if (count != 1 && count != -1)
                 return plural == "" ? singular + "s" : plural;
             return singular;
-            
         }
         public static string Pluralize(double count, string singular, string plural = "")
         {
             if (count != 1 && count != -1)
                 return plural == "" ? singular + "s" : plural;
             return singular;
-
         }
         public static string Pluralize(string count, string singular, string plural = "")
         {
@@ -36,7 +34,6 @@
             if (count != 1 && count != -1)
                 return plural == "" ? singular + "s" : plural;
             return singular;
-
         }
         #endregion Pluralize
 
