@@ -1,4 +1,6 @@
 language: csharp
+
 solution: Trivial.Utility.sln
+
 script: 
  - dotnet test
