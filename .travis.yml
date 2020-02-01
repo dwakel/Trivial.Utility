@@ -2,5 +2,11 @@ language: csharp
 
 solution: Trivial.Utility.sln
 
+mono: none
+
+dotnet: latest
+
+dist: trusty
+
 script: 
- - dotnet test
+  - nunit-console Tests/bin/Release/ 

@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/dwakel/Trivial.Utility.svg?branch=master)](https://travis-ci.com/dwakel/Trivial.Utility)
+
 # Trivial.Utility
 Nuget package library for utility methods
 
