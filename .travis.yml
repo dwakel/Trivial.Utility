@@ -4,7 +4,7 @@ solution: Trivial.Utility.sln
 
 mono: none
 
-dotnet: latest
+dotnet: 3.0.0
 
 dist: trusty
 
