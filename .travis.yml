@@ -9,4 +9,4 @@ dotnet: 3.0.0
 dist: bionic
 
 script: 
-  - nunit-console Tests/bin/Release/ 
+  - dotnet test
