@@ -1,4 +1,6 @@
-﻿namespace Trivial.Utility
+﻿using System.Linq;
+
+namespace Trivial.Utility
 {
    public static class Grammar
     {
@@ -73,6 +75,49 @@
 
         }
         #endregion Singularize
+
+        #region Checks
+        /// <summary>
+        /// Check if Word1 and Word2 are anagrams
+        /// </summary>
+        /// <param name="Word1">string</param>
+        /// <param name="Word2"></param>
+        /// <returns>True if anagram</returns>
+        public static bool IsAnagram(string Word1, string Word2)
+        {
+            if (Word1.Trim().Length == Word2.Trim().Length)
+            {
+                var arr = (Word1 + Word2).ToArray();
+                var results = arr.GroupBy(x => x)
+                    .Select(y => new
+                    {
+                        number = y.Count()
+                    });
+                return results.All(x => x.number % 2 == 0);
+
+            }
+            return new bool();
+        }
+        /// <summary>
+        /// Check if words are collective anagrams
+        /// </summary>
+        /// <param name="words">A list of words to check if they are all anagrams</param>
+        /// <returns>True if all words are anagrams and false if not</returns>
+        public static bool IsAnagram(params string[] words)
+        {
+            if (words.Sum(x => x.Count()) % words.Length == 0)
+            {
+                var arr = words.Aggregate((sum, val) => $"{sum}{val}").ToArray();
+                var results = arr.GroupBy(x => x)
+                    .Select(y => new
+                    {
+                        number = y.Count()
+                    });
+                return results.All(x => x.number % 2 == 0);
+            }
+            return new bool();
+        }
+        #endregion Checks
 
     }
 }
