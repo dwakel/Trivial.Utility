@@ -46,6 +46,7 @@ with 's'. For unregular words, consider using optional parameters to supply sing
 
 To contribute to this project, simple fork the project to make changes. Create a PR to submit changes.
 Make sure to write sufficient test for every new method or feature added and give a brief discription about the feature added.
+And please write TESTs 💚💚💚
 
 
 ❤️💛💚  ❤️💛💚  ❤️💛💚
