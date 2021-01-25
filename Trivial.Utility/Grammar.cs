@@ -1,5 +1,4 @@
 ﻿using System.Linq;
-
 namespace Trivial.Utility
 {
    public static class Grammar

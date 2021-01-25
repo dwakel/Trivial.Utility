@@ -7,9 +7,7 @@ namespace Tests
     public class GrammarTest
     {
         [SetUp]
-        public void Setup()
-        {
-        }
+        public void Setup() { }
 
         [TestCase(-1)]
         [TestCase(1)]
